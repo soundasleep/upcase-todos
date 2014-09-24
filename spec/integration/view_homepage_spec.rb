@@ -8,6 +8,8 @@ feature "View the homepage" do
     # expect(page).to have_xpath '//title', text: 'Todos'
     # expect(page).to have_xpath '//title', text: 'Todos'
     expect(page).to have_title 'Todos'
+    expect(page).to have_xpath '//*[@data-role="description"]'
+    expect(page).to have_css '[data-role="description"]'
     # puts page.html
     expect(true).to eq(true)
   end
