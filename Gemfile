@@ -44,7 +44,7 @@ group :test, :development do
   # gem 'rspec-rails', '~> 3.1' - does not work in Windows yet: https://github.com/rspec/rspec-support/issues/112
   gem 'rspec-rails'
   gem 'rspec-support', '~> 3.0.4'
-  gem 'capybara', '> 2.2'
+  gem 'capybara', '~> 2.2'
 end
 
 # some random gem for some reason
